@@ -1,12 +1,15 @@
-from email import feedparser
-import feedparser as feed
+import feedparser
 
 # This will parse the RSS feed
-RssFeed = feedparser.parse("https://somewebsite.com/feed")
-RssFeed[""][""]
+feedparser.parse("https://www.positive.news/rss")
+feed = feedparser.parse(
+    "https://www.positive.news/rss")
+
+feed['entries']
+print(feed)
 
 # This will extract and display information
-for entry in RssFeed.entries:
+for entry in feed.entries:
     print("Post Title:", entry.title)
     print("Summary:", entry.summary)
     print("Link:", entry.link)
