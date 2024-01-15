@@ -13,3 +13,17 @@ source venv/bin/activate
 ## Select the right environment for importing feedparser
 
 In this case, this is Python 3.11.4.
+
+## Running the programme
+
+- Use the command below to run the programme
+
+```markdown
+python3 app.py
+```
+
+OR
+
+```markdown
+python app.py
+```
