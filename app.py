@@ -2,8 +2,7 @@ import feedparser
 
 # This will parse the RSS feed
 feedparser.parse("https://www.positive.news/rss")
-feed = feedparser.parse(
-    "https://www.positive.news/rss")
+feed = feedparser.parse("https://www.positive.news/rss")
 
 feed['entries']
 print(feed)
