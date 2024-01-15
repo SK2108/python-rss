@@ -1,2 +1,15 @@
-# python-rss
+# Python-rss
+
 Building an RSS feed reader in Python
+
+## Getting started
+
+- Activate your environment
+
+```python
+source venv/bin/activate
+```
+
+## Select the right environment for importing feedparser
+
+In this case, this is Python 3.11.4.
