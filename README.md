@@ -27,3 +27,11 @@ OR
 ```markdown
 python app.py
 ```
+
+## Running tests
+
+Run tests with this command
+
+```markdown
+python3 tests/test_app.py
+```
