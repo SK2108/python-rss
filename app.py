@@ -5,7 +5,7 @@ feedparser.parse("https://www.positive.news/rss")
 feed = feedparser.parse("https://www.positive.news/rss")
 
 feed['entries']
-print(feed)
+# print(feed)
 
 # This will extract and display information
 for entry in feed.entries:
